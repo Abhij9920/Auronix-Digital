@@ -9,7 +9,7 @@ interface HeroProps {
   backgroundImage?: string;
 }
 
-export function Hero({ headline, subtext, tags, bottomContent, minHeight = "min-h-[87vh]", backgroundImage }: HeroProps) {
+export function Hero({ headline, subtext, tags, bottomContent, minHeight = "md:min-h-[87vh]", backgroundImage }: HeroProps) {
   return (
     <section 
       className={`bg-charcoal text-white relative flex flex-col pt-10 pb-16 px-10 overflow-hidden ${minHeight} ${backgroundImage ? 'bg-cover bg-center' : ''}`}

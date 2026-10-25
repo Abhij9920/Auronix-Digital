@@ -30,7 +30,7 @@ export function Home() {
     <div className="flex flex-col w-full">
 
       {/* ──────────── HERO SECTION ──────────── */}
-      <section className="bg-ivory min-h-[80vh] flex flex-col justify-end pb-0 px-8 md:px-16 pt-36">
+      <section className="bg-ivory md:min-h-[80vh] flex flex-col justify-end pb-0 px-8 md:px-16 pt-6 md:pt-36">
         <div className="max-w-[1400px] mx-auto w-full">
 
           {/* Small label */}
