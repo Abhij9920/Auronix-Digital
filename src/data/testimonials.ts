@@ -15,7 +15,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     id: 't3',
-    quote: "I've worked with several agencies. What sets Auronix apart is the clarity — clear strategy, honest reporting, and creative work that actually moves the needle.",
+    quote: "Working with Auronix felt like having an in-house team. Full transparency, consistent communication, and outcomes that exceeded what we expected.",
     name: 'James Whitfield',
     role: 'Founder, Harbour Logistics'
   }

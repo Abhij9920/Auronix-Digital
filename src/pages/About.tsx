@@ -14,7 +14,7 @@ export function About() {
               className="font-sans font-bold text-charcoal leading-tight mt-4 max-w-4xl"
               style={{ fontSize: 'clamp(40px, 5.5vw, 72px)' }}
             >
-              Melbourne-based. Strategy-led. Built for Australian Growth.
+              Strategy-led. Design-obsessed. Execution-focused.
             </h1>
           </ScrollReveal>
         </div>
@@ -36,7 +36,7 @@ export function About() {
                 Auronix Digital was founded on one belief: great digital work should be measurable. We combine strategic thinking with creative execution — delivering work that looks sharp and performs from day one.
               </p>
               <p>
-                From early-stage startups to established brands looking to scale, we partner with businesses serious about growth — delivering strategy, design, development, and marketing as one connected engine.
+                From early-stage startups to established brands looking to scale, we partner with brands that are serious about their digital presence — delivering strategy, design, development, and marketing as one connected engine.
               </p>
             </div>
           </ScrollReveal>
@@ -68,7 +68,7 @@ export function About() {
             {[
               {
                 title: 'Results-First Thinking',
-                body: `Every strategy we build is tied to a measurable outcome. We don't do fluff — we do growth.`,
+                body: `Every strategy is tied to a clear objective. No fluff, no guesswork — just work that delivers.`,
               },
               {
                 title: 'Market-Specific Strategy',
@@ -80,7 +80,7 @@ export function About() {
               },
               {
                 title: 'Long-Term Partnerships',
-                body: `We don't disappear after launch. We grow with you, optimise continuously, and show up when it matters.`,
+                body: `We don't disappear after launch. We stay in it — optimising continuously and showing up when it matters.`,
               },
             ].map((card, i) => (
               <ScrollReveal key={i} delay={((i % 3) * 100) as 0 | 100 | 200 | 300}>
@@ -111,7 +111,7 @@ export function About() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-0 border border-white/10">
             {[
-              { num: '01', title: 'Results First', body: 'Every decision is measured against one question: does this drive growth?', bg: '#C8C5FF', dark: false },
+              { num: '01', title: 'Results First', body: 'Every decision is measured against one question: does this deliver?', bg: '#C8C5FF', dark: false },
               { num: '02', title: 'Design with Purpose', body: 'Beautiful work that also converts. Aesthetics always serve strategy.', bg: '#98F499', dark: false },
               { num: '03', title: 'Radical Transparency', body: 'No black boxes. You see everything — strategy, data, results.', bg: '#1F2022', dark: true },
             ].map((card, i) => (

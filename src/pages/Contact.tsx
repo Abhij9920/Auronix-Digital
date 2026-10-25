@@ -12,7 +12,7 @@ export function Contact() {
             className="font-sans font-bold text-charcoal leading-tight mt-4"
             style={{ fontSize: 'clamp(52px, 7vw, 96px)' }}
           >
-            Let's Talk Growth
+            Let's Talk
           </h1>
           <p className="font-sans text-[16px] text-text-gray font-light mt-3">
             We respond within 24 hours on business days.
@@ -39,7 +39,7 @@ export function Contact() {
             <ul className="mt-8 space-y-4">
               {[
                 'Audit of your current digital presence',
-                'Clarity on the biggest growth opportunities',
+                'Clarity on where to focus first',
                 'A clear next step — no obligation',
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">

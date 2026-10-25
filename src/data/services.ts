@@ -39,7 +39,7 @@ export const services: Service[] = [
     id: 's4',
     name: 'Scale',
     shortDesc: 'SEO Mastery & Targeted Ads',
-    fullDesc: 'Organic growth through technical SEO and paid performance across Google, Meta, and LinkedIn — built for measurable ROI.',
+    fullDesc: 'Precise audience targeting and technical SEO — built to perform consistently across platforms.',
     included: [],
     projects: projects.filter(p => p.category === 'Scale')
   }

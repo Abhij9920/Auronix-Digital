@@ -18,7 +18,7 @@ export function Footer() {
             </div>
             <div className="w-12 h-px bg-gold mb-6"></div>
             <p className="text-white/40 text-sm font-sans font-light mb-8 max-w-xs">
-              We offer end-to-end digital solutions designed to grow your brand and maximise your ROI.
+              We design, develop, and market digital experiences that make an impact.
             </p>
             <div className="flex space-x-3">
               {['FB', 'TW', 'LI', 'IG'].map((social) => (
