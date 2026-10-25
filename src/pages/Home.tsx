@@ -35,7 +35,7 @@ export function Home() {
 
           {/* Small label */}
           <div className="mb-6">
-            <SectionLabel>STRATEGY · BRANDING · CREATIVE · CONTENT</SectionLabel>
+            <SectionLabel>MELBOURNE · AUSTRALIA-WIDE · EST. 2024</SectionLabel>
           </div>
 
           {/* Giant headline + circle CTA row */}
@@ -44,7 +44,7 @@ export function Home() {
               className="font-sans font-bold text-charcoal leading-[1.05] flex-1"
               style={{ fontSize: 'clamp(52px, 7vw, 96px)' }}
             >
-              We Specialize in Strategy,&nbsp;Design &amp;&nbsp;Marketing
+              We Help Australian Businesses Grow Online
             </h1>
 
             {/* Floating circular CTA button */}
@@ -61,7 +61,7 @@ export function Home() {
 
           {/* Subtext */}
           <p className="font-sans text-text-gray font-light text-[17px] mt-6 max-w-xl leading-relaxed">
-            Auronix Digital is your end-to-end growth partner — combining strategy, creativity, and technology to build brands that scale.
+            Auronix Digital is Melbourne's end-to-end digital growth partner. We help Australian businesses and international brands entering the Australian market design, build, and scale their online presence.
           </p>
 
           {/* Mobile CTA */}
@@ -107,25 +107,25 @@ export function Home() {
                 bg: '#C8C5FF', // lavender
                 num: '01',
                 title: 'Comprehensive Digital Campaigns',
-                body: 'Creating holistic digital strategies that connect every touchpoint of your customer journey.',
+                body: 'We build full-funnel digital strategies tailored to the Australian market — connecting every customer touchpoint from first click to conversion.',
               },
               {
                 bg: '#98F499', // lime
                 num: '02',
                 title: 'SEO Mastery',
-                body: 'Boosting your site on search engines with data-driven keyword strategy and content optimisation.',
+                body: 'We help Australian businesses rank on Google through local SEO, Google Business Profile optimisation, and content strategies built for Australian search intent.',
               },
               {
                 bg: '#F7F5F0', // cream/ivory
                 num: '03',
                 title: 'Targeted Advertisement',
-                body: 'Maximising ROI through precise audience targeting across Google, Meta, and LinkedIn.',
+                body: 'We run high-ROI paid campaigns across Google Ads, Meta, and LinkedIn — precisely targeted to Australian audiences that are ready to buy.',
               },
               {
                 bg: '#1F2022', // charcoal card, inverted
                 num: '04',
                 title: 'Brand & Creative',
-                body: 'Building brand identities that stand out — logos, guidelines, and visual systems.',
+                body: 'We craft brand identities that resonate in the Australian market — logos, visual systems, and brand guidelines built to stand out and scale.',
                 inverted: true,
               },
             ].map((card, i) => (
@@ -268,14 +268,14 @@ export function Home() {
               className="font-sans font-bold text-charcoal leading-tight"
               style={{ fontSize: 'clamp(40px, 5vw, 68px)' }}
             >
-              Built for Businesses Ready to Grow
+              Built for Australian Businesses Ready to Scale
             </h2>
             <p className="font-sans text-[16px] text-text-gray font-light leading-relaxed mt-6 max-w-md">
-              We combine the rigour of a growth consultancy with the craft of a design studio. From strategy to execution, we deliver design, development, and marketing as one connected engine.
+              We combine the rigour of a growth consultancy with the craft of a creative studio — built specifically for the Australian market. From strategy to execution, we deliver design, development, and marketing as one seamless engine for businesses that want to compete online in Australia and beyond.
             </p>
 
             <ul className="space-y-4 mt-8 mb-10">
-              {['End-to-end digital strategy', 'Design that converts, not just impresses', 'Transparent reporting and measurable results'].map((item, i) => (
+              {['Australia-focused digital strategy and execution', 'Design that converts Australian audiences, not just impresses', 'Clear reporting with measurable, real-world results'].map((item, i) => (
                 <li key={i} className="flex items-center gap-3">
                   <div className="w-2 h-2 rounded-full bg-gold flex-shrink-0"></div>
                   <span className="font-sans text-[15px] text-charcoal">{item}</span>
@@ -309,10 +309,10 @@ export function Home() {
             className="font-sans font-bold text-white leading-tight"
             style={{ fontSize: 'clamp(40px, 5.5vw, 72px)' }}
           >
-            Ready to Grow Your Business?
+            Ready to Grow Your Australian Business?
           </h2>
           <p className="font-sans font-light text-[17px] text-white/60 mt-4 mb-10">
-            Let's build something remarkable together.
+            Let's build something remarkable — for the Australian market and beyond.
           </p>
           <Link
             to="/contact"
@@ -342,7 +342,7 @@ export function Home() {
             <div className="mt-10 p-6 border border-border-gray bg-white">
               <div className="w-2 h-2 rounded-full bg-gold mb-4"></div>
               <p className="text-[11px] uppercase tracking-[0.2em] text-gold font-medium mb-2">AVAILABILITY</p>
-              <p className="font-sans text-[15px] text-charcoal">Monday – Friday, 10AM – 6PM IST</p>
+              <p className="font-sans text-[15px] text-charcoal">Monday – Friday, 9AM – 6PM AEST (Melbourne)</p>
             </div>
           </ScrollReveal>
 
