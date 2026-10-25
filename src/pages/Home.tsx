@@ -35,7 +35,7 @@ export function Home() {
 
           {/* Small label */}
           <div className="mb-6">
-            <SectionLabel>MELBOURNE · AUSTRALIA-WIDE · EST. 2024</SectionLabel>
+            <SectionLabel>DESIGN · DEVELOP · MARKET · SCALE</SectionLabel>
           </div>
 
           {/* Giant headline + circle CTA row */}
@@ -44,7 +44,7 @@ export function Home() {
               className="font-sans font-bold text-charcoal leading-[1.05] flex-1"
               style={{ fontSize: 'clamp(52px, 7vw, 96px)' }}
             >
-              Design, Build, and Grow — End to End.
+              Design, Build, and Market — End to End.
             </h1>
 
             {/* Floating circular CTA button */}
@@ -61,7 +61,7 @@ export function Home() {
 
           {/* Subtext */}
           <p className="font-sans text-text-gray font-light text-[17px] mt-6 max-w-xl leading-relaxed">
-            Auronix Digital is your end-to-end digital growth partner — combining strategy, creativity, and technology to build brands that perform.
+            Auronix Digital is your end-to-end digital partner — combining strategy, creativity, and technology to build brands that perform.
           </p>
 
           {/* Mobile CTA */}
@@ -268,14 +268,14 @@ export function Home() {
               className="font-sans font-bold text-charcoal leading-tight"
               style={{ fontSize: 'clamp(40px, 5vw, 68px)' }}
             >
-              Built for Australian Businesses Ready to Scale
+              One Team. Strategy to Execution.
             </h2>
             <p className="font-sans text-[16px] text-text-gray font-light leading-relaxed mt-6 max-w-md">
               We combine strategic thinking with creative execution — delivering work that looks sharp and performs. From brand through to campaigns, everything connects.
             </p>
 
             <ul className="space-y-4 mt-8 mb-10">
-              {['Australia-focused digital strategy and execution', 'Design that converts Australian audiences, not just impresses', 'Clear reporting with measurable, real-world results'].map((item, i) => (
+              {['Strategy, design, development, and marketing — all in-house', 'Creative work built to convert, not just impress', "Clear reporting on what's working and what's not"].map((item, i) => (
                 <li key={i} className="flex items-center gap-3">
                   <div className="w-2 h-2 rounded-full bg-gold flex-shrink-0"></div>
                   <span className="font-sans text-[15px] text-charcoal">{item}</span>
@@ -309,10 +309,10 @@ export function Home() {
             className="font-sans font-bold text-white leading-tight"
             style={{ fontSize: 'clamp(40px, 5.5vw, 72px)' }}
           >
-            Ready to Grow Your Australian Business?
+            Ready to Get Started?
           </h2>
           <p className="font-sans font-light text-[17px] text-white/60 mt-4 mb-10">
-            Let's build something remarkable — for the Australian market and beyond.
+            Let's build something remarkable together.
           </p>
           <Link
             to="/contact"
@@ -336,7 +336,7 @@ export function Home() {
               Book a Free Strategy Call
             </h2>
             <p className="font-sans text-[16px] text-text-gray font-light mt-5 leading-relaxed max-w-sm">
-              30 minutes. No commitment. Just clarity on how to grow your business.
+              30 minutes. No commitment. Just a clear conversation about your goals.
             </p>
 
             <div className="mt-10 p-6 border border-border-gray bg-white">
