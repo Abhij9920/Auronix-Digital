@@ -3,20 +3,20 @@ import type { Testimonial } from '../types';
 export const testimonials: Testimonial[] = [
   {
     id: 't1',
-    quote: "We launched a completely new brand and website with Auronix, and within the first quarter our residential enquiries jumped noticeably. They understood the Australian solar market from day one — no hand-holding needed.",
-    name: 'Liam Nguyen',
-    role: 'Founder, SunPath Solar'
+    quote: "We needed a brand and website that could compete with the bigger players. Auronix delivered both — the design is sharp, the site converts, and our enquiries have grown consistently since launch.",
+    name: 'Liam Thornton',
+    role: 'Director, Apex Solar Solutions'
   },
   {
     id: 't2',
-    quote: "Auronix handled everything from our SEO strategy to our social campaigns targeting prospective international students. They genuinely understand both Australian and South Asian audiences, which made a real difference to our enrolment numbers.",
-    name: 'Anita Sharma',
-    role: 'Head of Marketing, Pacific Education Group'
+    quote: "The team understood our audience immediately — both local and international. The campaigns they built are precise, and the results have been consistent across every channel.",
+    name: 'Anita Desai',
+    role: 'Marketing Manager, Meridian College'
   },
   {
     id: 't3',
-    quote: "I've worked with a few agencies before and the difference with Auronix is the accountability. Clear reporting, honest advice, and creative work that actually converts. The best digital investment we've made.",
+    quote: "I've worked with several agencies. What sets Auronix apart is the clarity — clear strategy, honest reporting, and creative work that actually moves the needle.",
     name: 'James Whitfield',
-    role: 'Director, Harbour & Co.'
+    role: 'Founder, Harbour Logistics'
   }
 ];

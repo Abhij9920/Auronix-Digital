@@ -15,7 +15,7 @@ export const services: Service[] = [
     id: 's1',
     name: 'Design',
     shortDesc: 'Brand & Creative',
-    fullDesc: 'We build brand identities that resonate in the Australian market — logos, visual systems, and brand guidelines that define who you are and how you stand out locally.',
+    fullDesc: 'Brand identities built to stand out — logos, visual systems, and guidelines that define who you are across every touchpoint.',
     included: [],
     projects: projects.filter(p => p.category === 'Design')
   },
@@ -23,7 +23,7 @@ export const services: Service[] = [
     id: 's2',
     name: 'Develop',
     shortDesc: 'Web Development',
-    fullDesc: 'We build fast, responsive, and conversion-optimised websites for Australian businesses — from local service providers to national e-commerce brands.',
+    fullDesc: 'Fast, responsive websites built on modern stacks — designed to convert visitors, not just look good.',
     included: [],
     projects: projects.filter(p => p.category === 'Develop')
   },
@@ -31,7 +31,7 @@ export const services: Service[] = [
     id: 's3',
     name: 'Market',
     shortDesc: 'Comprehensive Digital Campaigns',
-    fullDesc: 'We create full-funnel digital marketing campaigns tailored to Australian audiences — connecting your brand to the right people at the right time across the right channels.',
+    fullDesc: 'Full-funnel digital campaigns that connect your brand to the right audience at the right stage of the buying journey.',
     included: [],
     projects: projects.filter(p => p.category === 'Market')
   },
@@ -39,7 +39,7 @@ export const services: Service[] = [
     id: 's4',
     name: 'Scale',
     shortDesc: 'SEO Mastery & Targeted Ads',
-    fullDesc: 'We help Australian businesses grow their organic reach and paid performance — through local SEO, Google Business optimisation, and precision ad targeting across Google, Meta, and LinkedIn.',
+    fullDesc: 'Organic growth through technical SEO and paid performance across Google, Meta, and LinkedIn — built for measurable ROI.',
     included: [],
     projects: projects.filter(p => p.category === 'Scale')
   }

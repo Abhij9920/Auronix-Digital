@@ -29,14 +29,14 @@ export function About() {
               className="font-sans font-bold text-charcoal leading-tight mt-3 mb-6"
               style={{ fontSize: 'clamp(36px, 4vw, 52px)' }}
             >
-              Built in Melbourne. Built for Australia.
+              Built to Perform, Not Just to Look Good.
             </h2>
             <div className="font-sans font-light text-[16px] text-text-gray leading-relaxed space-y-4">
               <p>
-                Auronix Digital was founded in Melbourne on a simple belief: great digital work should be measurable and market-specific. We combine the rigour of a growth consultancy with the craft of a creative studio — built for the Australian market, with a deep understanding of both local and international audiences.
+                Auronix Digital was founded on one belief: great digital work should be measurable. We combine strategic thinking with creative execution — delivering work that looks sharp and performs from day one.
               </p>
               <p>
-                From Australian startups and solar companies to higher education providers recruiting across the Indo-Pacific, we partner with brands that are serious about growth — delivering strategy, design, development, and marketing as one connected engine.
+                We work with businesses across Australia and India — from early-stage startups to established brands looking to scale — delivering strategy, design, development, and marketing as one connected engine.
               </p>
             </div>
           </ScrollReveal>
@@ -71,8 +71,8 @@ export function About() {
                 body: `Every strategy we build is tied to a measurable outcome. We don't do fluff — we do growth.`,
               },
               {
-                title: 'Built for Australia',
-                body: 'We understand the Australian market deeply — from local SEO and Google Business to reaching multicultural audiences across Melbourne, Sydney, and Brisbane.',
+                title: 'Market-Specific Strategy',
+                body: 'We work across Australia and India with a grounded understanding of both markets — how audiences search, what they expect, and what makes them convert.',
               },
               {
                 title: 'End-to-End Execution',

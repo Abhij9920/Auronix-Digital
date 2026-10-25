@@ -44,7 +44,7 @@ export function Home() {
               className="font-sans font-bold text-charcoal leading-[1.05] flex-1"
               style={{ fontSize: 'clamp(52px, 7vw, 96px)' }}
             >
-              We Help Australian Businesses Grow Online
+              Design, Build, and Grow — End to End.
             </h1>
 
             {/* Floating circular CTA button */}
@@ -61,7 +61,7 @@ export function Home() {
 
           {/* Subtext */}
           <p className="font-sans text-text-gray font-light text-[17px] mt-6 max-w-xl leading-relaxed">
-            Auronix Digital is Melbourne's end-to-end digital growth partner. We help Australian businesses and international brands entering the Australian market design, build, and scale their online presence.
+            Auronix Digital partners with businesses across Australia and India to design, develop, and scale their digital presence — from brand identity through to performance marketing.
           </p>
 
           {/* Mobile CTA */}
@@ -107,25 +107,25 @@ export function Home() {
                 bg: '#C8C5FF', // lavender
                 num: '01',
                 title: 'Comprehensive Digital Campaigns',
-                body: 'We build full-funnel digital strategies tailored to the Australian market — connecting every customer touchpoint from first click to conversion.',
+                body: 'Full-funnel digital strategies that connect every touchpoint — from first impression to final conversion.',
               },
               {
                 bg: '#98F499', // lime
                 num: '02',
                 title: 'SEO Mastery',
-                body: 'We help Australian businesses rank on Google through local SEO, Google Business Profile optimisation, and content strategies built for Australian search intent.',
+                body: 'Data-driven SEO that builds long-term organic visibility — keyword strategy, content optimisation, and technical performance combined.',
               },
               {
                 bg: '#F7F5F0', // cream/ivory
                 num: '03',
                 title: 'Targeted Advertisement',
-                body: 'We run high-ROI paid campaigns across Google Ads, Meta, and LinkedIn — precisely targeted to Australian audiences that are ready to buy.',
+                body: 'Paid campaigns across Google, Meta, and LinkedIn — built around precise audience targeting and a clear return on investment.',
               },
               {
                 bg: '#1F2022', // charcoal card, inverted
                 num: '04',
                 title: 'Brand & Creative',
-                body: 'We craft brand identities that resonate in the Australian market — logos, visual systems, and brand guidelines built to stand out and scale.',
+                body: 'Brand identities built to last — logos, visual systems, and guidelines that define how you look and how you\'re remembered.',
                 inverted: true,
               },
             ].map((card, i) => (
@@ -271,7 +271,7 @@ export function Home() {
               Built for Australian Businesses Ready to Scale
             </h2>
             <p className="font-sans text-[16px] text-text-gray font-light leading-relaxed mt-6 max-w-md">
-              We combine the rigour of a growth consultancy with the craft of a creative studio — built specifically for the Australian market. From strategy to execution, we deliver design, development, and marketing as one seamless engine for businesses that want to compete online in Australia and beyond.
+              We combine strategic thinking with creative execution — delivering work that looks sharp and performs. From brand through to campaigns, everything connects.
             </p>
 
             <ul className="space-y-4 mt-8 mb-10">
@@ -342,7 +342,7 @@ export function Home() {
             <div className="mt-10 p-6 border border-border-gray bg-white">
               <div className="w-2 h-2 rounded-full bg-gold mb-4"></div>
               <p className="text-[11px] uppercase tracking-[0.2em] text-gold font-medium mb-2">AVAILABILITY</p>
-              <p className="font-sans text-[15px] text-charcoal">Monday – Friday, 9AM – 6PM AEST (Melbourne)</p>
+              <p className="font-sans text-[15px] text-charcoal">Monday – Friday, 9AM – 6PM AEST</p>
             </div>
           </ScrollReveal>
 

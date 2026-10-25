@@ -52,7 +52,7 @@ export function Contact() {
             {/* Availability box */}
             <div className="mt-10 p-6 border border-border-gray bg-ivory">
               <SectionLabel className="mb-2">AVAILABILITY</SectionLabel>
-              <p className="font-sans text-[15px] text-charcoal font-medium">Monday – Friday, 9AM – 6PM AEST (Melbourne)</p>
+              <p className="font-sans text-[15px] text-charcoal font-medium">Monday – Friday, 9AM – 6PM AEST</p>
             </div>
 
             {/* Direct contact */}
