@@ -61,7 +61,7 @@ export function Home() {
 
           {/* Subtext */}
           <p className="font-sans text-text-gray font-light text-[17px] mt-6 max-w-xl leading-relaxed">
-            Auronix Digital partners with businesses across Australia and India to design, develop, and scale their digital presence — from brand identity through to performance marketing.
+            Auronix Digital is your end-to-end digital growth partner — combining strategy, creativity, and technology to build brands that perform.
           </p>
 
           {/* Mobile CTA */}

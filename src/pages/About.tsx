@@ -36,7 +36,7 @@ export function About() {
                 Auronix Digital was founded on one belief: great digital work should be measurable. We combine strategic thinking with creative execution — delivering work that looks sharp and performs from day one.
               </p>
               <p>
-                We work with businesses across Australia and India — from early-stage startups to established brands looking to scale — delivering strategy, design, development, and marketing as one connected engine.
+                From early-stage startups to established brands looking to scale, we partner with businesses serious about growth — delivering strategy, design, development, and marketing as one connected engine.
               </p>
             </div>
           </ScrollReveal>
