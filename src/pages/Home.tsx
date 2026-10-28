@@ -80,9 +80,9 @@ export function Home() {
       {/* ──────────── FULL-WIDTH IMAGE ──────────── */}
       <section className="w-full h-[420px] md:h-[560px] overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&h=700&fit=crop"
-          alt="Modern creative agency workspace"
-          className="w-full h-full object-cover"
+          src="/images/digital-marketing-banner.jpg"
+          alt="Modern digital marketing agency studio with real-time performance analytics and growth metrics"
+          className="w-full h-full object-cover object-center"
         />
       </section>
 
